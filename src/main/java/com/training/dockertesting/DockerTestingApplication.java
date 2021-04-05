@@ -9,7 +9,6 @@ public class DockerTestingApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DockerTestingApplication.class, args);
-		var string = "String";
 	}
 
 }
