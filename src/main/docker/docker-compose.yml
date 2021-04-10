@@ -1,6 +1,11 @@
 version: '2'
 
 services:
+  admin:
+    image: 'adminer'
+    ports:
+      - 8079:8080
+
   app:
     image: 'docker-testing:latest'
     build:
